@@ -9,7 +9,7 @@ import {
 const router = express.Router();
 
 router.post("/", saveUser);
-router.get("/", getUser);
+router.get("/all", getUser);
 router.post("/send-welcome-email", sendWelcomeEmail);
 router.delete("/:id", deleteUser);
 
